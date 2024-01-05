@@ -1,0 +1,187 @@
+@media screen and (max-width : 1400px) {
+    html {
+        font-size: 11px;
+    }
+
+    .btn {
+        padding: 1rem 3rem;
+        font-size: 1.7rem;
+    }
+
+    #home div {
+        width: 70%;
+    }
+
+    .about-text p {
+        font-size: 1.5rem;
+    }
+
+    .service h3 {
+        font-size: 2rem;
+    }
+
+    .service p {
+        font-size: 1.5rem;
+    }
+
+    .gallery-child>div {
+        flex-basis: 30%;
+    }
+
+    .room-cards-child {
+        flex-basis: 33%;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width : 840px) {
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+    
+    .logo {
+        margin-bottom: 1.5rem;
+    }
+
+    #home div {
+        width: 90%;
+    }
+
+    .about-child {
+        flex-basis: 100%;
+    }
+
+    .service {
+        flex-basis: 50%;
+    }
+
+    .gallery-child>div {
+        flex-basis: 48%;
+    }
+
+    #rooms>p {
+        text-align: center;
+        width: 80%;
+    }
+
+    .room-cards-child {
+        flex-basis: 48%;
+        margin-bottom: 2rem;
+    }
+
+    .room-cards-child p {
+        font-size: 1.4rem;
+    }
+
+    #blog-home div {
+        z-index: 1;
+        width: 80%;
+    }
+
+    #blog-posts h1 {
+        font-size: 2rem;
+    }
+
+    #blog-posts p {
+        font-size: 1.4rem;
+    }
+
+    .team-cards-child {
+        flex-basis: 48%;
+        margin-bottom: 1.5rem;
+    }
+
+    #contact>div {
+        flex-basis: 70%;
+    }
+
+    #contact>form {
+        flex-basis: 70%;
+        align-items: center;
+    }
+
+    #contact>form input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 576px) {
+    html {
+        font-size: 8px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: justify;
+    }
+
+    .service {
+        flex-basis: 100%;
+    }
+
+    .gallery-child {
+        justify-content: center;
+    }
+
+    .gallery-child>div {
+        flex-basis: 90%;
+    }
+
+    #rooms>p {
+        width: 100%;
+    }
+
+    .room-cards {
+        width: 90%;
+    }
+    
+    
+    .room-cards-child {
+        flex-basis: 100%;
+    }
+
+    .room-cards-child>div {
+        min-height: 14rem;
+    }
+
+    #blog-home div {
+        width: 100%;
+    }
+
+    #blog-posts {
+        width: 100%;
+    }
+
+    #blog-posts > article {
+        border: 1px solid var(--primary-color);
+    }
+
+    #blog-posts h1 {
+        font-size: 1.8rem;
+    }
+
+    #blog-posts p {
+        font-size: 1.3rem;
+    }
+
+    .team-cards-child {
+        flex-basis: 100%;
+    }
+    
+    #contact>div {
+        display: none;
+    }
+
+    #contact>form {
+        flex-basis: 100%;
+    }
+    
+}
